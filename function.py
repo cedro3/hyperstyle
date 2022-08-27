@@ -5,7 +5,6 @@ import numpy as np
 import os
 
 def display_pic(folder):
-    %matplotlib inline
     fig = plt.figure(figsize=(30, 60))
     files = os.listdir(folder)
     files.sort()
